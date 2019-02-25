@@ -49,8 +49,12 @@ h3:not(.popover-header) {
 }
 
 .bg-bootstrap { background-color: #563d7c }
-.bg-pink { background-color: #E91E63 }
-.bg-indigo { background-color: #9c27b0 }
+.bg-pink { background-image: url("http://rlab.club/assets/img/photo_2019-02-25_16-20-10.jpg");
+background-repeat: no-repeat;
+  background-size: 100% auto ; }
+.bg-indigo { background-image: url("http://rlab.club/assets/img/photo_2019-02-25_16-20-30.jpg");
+background-repeat: no-repeat;
+  background-size: 100% auto ;}
 
 /* SVG icons */
 .nav svg {vertical-align: text-top;}
