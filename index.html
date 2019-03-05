@@ -18,6 +18,10 @@
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+	<!-- Animate On Scroll Library CSS -->
+	<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 	<!-- Custom styles for this template -->
 	<link href="./assets/css/theme4.css" rel="stylesheet">
 	<link href="./assets/css/docs.min.css" rel="stylesheet">
@@ -93,7 +97,7 @@
 	</div> <!-- myCarousel ----------------------------------------------- -->
 	<div class="container">
 		<div id="info" class="card-deck">
-				<div class="card bg-light mb-2" style="min-width: 18em;">
+				<div class="card bg-light mb-2" style="min-width: 18em;" data-aos="zoom-out-right">
 					<div class="card-body">
 						<h5 class="card-title">
 						Цель
@@ -103,7 +107,7 @@
 						<p class="card-text"><span class="font-weight-bold">Проект</span> - описание, цели, список необходимых и уже имеющихся ресурсов для реализации проекта.</p>
 					</div>
 				</div>
-				<div class="card bg-light mb-2" style="min-width: 18em;">
+				<div class="card bg-light mb-2" style="min-width: 18em;" data-aos="zoom-out">
 					<div class="card-body">
 						<h5 class="card-title">
 						Здесь представлены
@@ -114,7 +118,7 @@
 						<p class="card-text"><span class="font-weight-bold">Ваши</span> идеи приветствуются!</p>
 					</div>
 				</div>
-				<div class="card bg-light mb-2" style="min-width: 18em;">
+				<div class="card bg-light mb-2" style="min-width: 18em;" data-aos="zoom-out-left">
 					<div class="card-body">
 						<h5 class="card-title">
 						Любой желающий
@@ -125,7 +129,7 @@
 					</div>
 				</div>
 		</div> <!-- info ------------------------------------------------- -->
-		<div id="projects" class="card my-3">
+		<div id="projects" class="card my-3" data-aos="fade-up">
 			<h5 class="card-header">
 			1. Roboarm
 			<img width="28" height="28" src="./assets/img/logo_r.png" class="rounded float-right" alt="RLab Project">
@@ -281,9 +285,6 @@
 				-->
 			</div>
 		</div> <!-- project ---------------------------------------------- -->
-		
-	
-		
 		<div class="card my-3">
 			<h5 class="card-header">
 			3. Робот сумоист
@@ -360,11 +361,7 @@
 				-->
 			</div>
 		</div> <!-- project ---------------------------------------------- -->
-		
-		
-		
-					
-		<div  id="projects" class="card my-3">
+		<div class="card my-3">
 			<h5 class="card-header">
 			4. Linefollow car
 			<img width="28" height="28" src="./assets/img/logo_r.png" class="rounded float-right" alt="RLab Project">
@@ -443,8 +440,6 @@
 				-->
 			</div>
 		</div> <!-- project ---------------------------------------------- -->
-		
-		
 		<div id="about" class="card bg-light mb-4" style="min-width: 20em;">
 			<div class="card-body">
 				<h5 class="card-title">
@@ -472,6 +467,10 @@
 
 	<script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.25/bootstrap-native-v4.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 	<script src="./assets/js/scripts4.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135259930-1"></script>
